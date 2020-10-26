@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\linespread{1.6}
+
+\title{logic questions}
+\date{October 2020}
+
+\begin{document}
+
+\textbf{1.}
+$\forall x \forall y \ ( x < y  \lor (y<x \lor x=y) \ $
+\textbf{satisfiable} \par
+\textbf{2.}
+$\exists x \forall y \ R(x,y) \implies \forall y \exists x \ R(x,y) \  $
+\textbf{valid} \par
+\textbf{3.}
+$\forall x \ ((P(x) \land x=y) \implies P(y)) \ $
+\textbf{valid} \par 
+\textbf{4.}
+$\forall x \exists y \ R(x,y) \implies \exists y \forall x \ R(x,y) $
+\textbf{satisfiable} \par 
+\textbf{5.}
+$\forall x \exists y \ R(x,y) \ \land \ \neg \ \forall y \exists x \ R(x,y)$
+\textbf{unsatisfiable} \par 
+
+\end{document}
